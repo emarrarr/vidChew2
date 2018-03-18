@@ -284,7 +284,7 @@ echo "Text;vcText:id%ID%:%Format%:%Language/String%\n" >> $vcTmpIn
 
 find "$targFolder" ! -path . -type f | sort | while read line; do
 	
-	sayB
+    sayB
     say "!! processing: $line"
     toEncode="no"
 
