@@ -24,7 +24,7 @@ ver="0317181537"
 ### Copyright (C) 2018 \m/rr - emarrarr@tuta.io
 ###
 ### Usage: vidChew2 <targetFolder>
-### Dependencies: ffmpeg, mediainfo (cli), bc, find, sort, cat, grep, tr, sed, awk, head, basename, bash
+### Dependencies: ffmpeg, mediainfo (cli), bash, coreutils, findutils
 ###
 ### Recursive batch video reencode script with optional video downscaling and audio downmixing via ffmpeg,
 ### written in BASH.
